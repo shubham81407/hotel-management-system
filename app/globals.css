@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-zinc-900/60 backdrop-blur-xl border border-white/5 shadow-2xl;
+  }
+  .glass-nav {
+    @apply bg-[#09090b]/80 backdrop-blur-xl border-b border-white/5;
+  }
+  .luxury-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-200 via-yellow-500 to-amber-700;
+  }
+  .luxury-gradient-bg {
+    @apply bg-gradient-to-r from-amber-500 via-yellow-600 to-amber-700;
+  }
+}
+
+html, body {
+  background-color: #09090b;
+}

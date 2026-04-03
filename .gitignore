@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/server/node_modules   👈 ADD THIS LINE
+
+# next.js build
+/.next
+
+# env files
+.env
+/server/.env           👈 (optional but recommended)
+
+# logs
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# misc
+*.pem
